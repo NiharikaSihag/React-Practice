@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-const mongo_uri = 'mongodb+srv://niharika:Nonu123@cluster0.nuhtoyg.mongodb.net/final';
+const mongo_uri = '/final';
 function connectToDB(){
     if(mongo_uri){
         mongoose.connect(mongo_uri);
