@@ -1,6 +1,6 @@
 import app from "./app.js";
 import mongoose from 'mongoose'
-const MONGO_URI = 'mongodb+srv://niharika:Nonu123@cluster0.nuhtoyg.mongodb.net/restapi'
+const MONGO_URI = '/restapi'
 const connectDB = async () =>{
     if(!MONGO_URI){
         console.log('No such url');
