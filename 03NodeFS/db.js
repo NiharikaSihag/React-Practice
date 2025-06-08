@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-const mongo_uri = 'mongodb+srv://niharika:Nonu123@cluster0.nuhtoyg.mongodb.net/managementsystem';
+const mongo_uri = '/managementsystem';
 const connectDB = async() => {
     if(!mongo_uri){
         console.log('No Url exist');
