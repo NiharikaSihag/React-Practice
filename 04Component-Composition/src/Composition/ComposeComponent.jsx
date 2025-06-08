@@ -5,10 +5,10 @@ function CardComposition ({children}) {
         </div>
     )
 }
-function ProfileCard ({section}){
+function ProfileCard (section){
     return(
         <CardComposition>
-            <h3>Section: {section}</h3>
+            <h3>Section: {children.section}</h3>
         </CardComposition>
     )
 }

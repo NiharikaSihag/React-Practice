@@ -14,6 +14,7 @@ class Card extends Component{
 class Profile extends Card{
     render(){
         return(
+           
             <Card >
                   <h3>Name: {this.props.name}</h3>
                   <h3>Age: {this.props.age}</h3> 
